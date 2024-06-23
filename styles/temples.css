@@ -85,7 +85,6 @@ figure {
 figure img {
     max-width: 100%;
     height: auto;
-    
 }
 
 figcaption {
@@ -105,7 +104,7 @@ footer {
 .footer-content {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #45a049;
+    background-color: #45a057ed;
     color: #f1f1f1;
 }
 
