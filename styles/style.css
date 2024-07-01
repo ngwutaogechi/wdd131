@@ -20,7 +20,7 @@ header {
 }
 
 .hero {
-    height: 400px;
+    height: 500px;
     position: relative; /* To position .info-container absolutely within this section */
 }
 
