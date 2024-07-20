@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members - Local Tech Meetup</title>
+    <link rel="stylesheet" href="styles/tech-group.css">
+    <script src="scripts/tech-group.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Local Tech Meetup</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Member Profiles</h2>
+            <div id="member-profiles"></div>
+        </section>
+        <section>
+            <h2>Join Us</h2>
+            <form id="join-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone number">Phone number:</label>
+                <input type="phone number" id="phone number" name="phone number" required>
+                
+                
+                <label for="interests">Interests:</label>
+                <textarea id="interests" name="interests" required></textarea>
+                
+                <button type="submit">Join</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        
+        <p>&copy; <span id="currentyear"></span>  Local Tech Meetup.</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    
+</body>
+</html>
